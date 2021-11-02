@@ -10,7 +10,7 @@ const calculate = document.getElementById("#calculate");
 
 button.EventListener('click', () => {
     let price = Number(bid.value);
-    const Edu = educationaz.value;
+    const Edu = education.value;
     const Networth = family.value;
     const Castt = caste.value;
     if(Edu=="blank" || Networth=="blank" || Castt=="blank"){
